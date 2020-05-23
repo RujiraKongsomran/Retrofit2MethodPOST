@@ -10,5 +10,5 @@ import retrofit2.http.POST;
 public interface JsonPlaceHolderApi {
 
     @POST("api/v1/create")
-    Call<Response> postBlueDot(@Body Request request);
+    Call<Response> postCreate(@Body Request request);
 }

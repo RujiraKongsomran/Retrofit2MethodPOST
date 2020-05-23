@@ -5,6 +5,12 @@ public class Request {
     private String salary;
     private String age;
 
+    public Request(String name, String salary, String age) {
+        this.name = name;
+        this.salary = salary;
+        this.age = age;
+    }
+
     public String getName() {
         return name;
     }
